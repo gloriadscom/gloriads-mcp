@@ -1,0 +1,19 @@
+{
+  "inputs": [
+    {
+      "type": "promptString",
+      "id": "gloriads-api-key",
+      "description": "Gloriads API key",
+      "password": true
+    }
+  ],
+  "servers": {
+    "gloriads": {
+      "type": "http",
+      "url": "https://gloriads.com/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${input:gloriads-api-key}"
+      }
+    }
+  }
+}
