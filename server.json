@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.gloriads/amazon-ads",
+  "title": "Gloriads — Amazon Ads",
+  "description": "Read your Amazon Ads campaigns, results, rules and activity, every marketplace and ad type.",
+  "version": "1.0.0",
+  "websiteUrl": "https://gloriads.com/docs/api/connect-an-ai-assistant",
+  "icons": [
+    {
+      "src": "https://gloriads.com/icon.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gloriads.com/api/mcp"
+    }
+  ]
+}
