@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "gloriads": {
+      "url": "https://gloriads.com/api/mcp",
+      "headers": {
+        "Authorization": "Bearer ${env:GLORIADS_API_KEY}"
+      }
+    }
+  }
+}
